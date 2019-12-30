@@ -9,3 +9,5 @@ $conexao = new mysqli($host, $user, $pass, $bd);
 if(!$conexao){
     echo "ERROR: " . $conexao->error;
 }
+
+// Criando minha versão desse arquivo
